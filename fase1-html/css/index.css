@@ -1,0 +1,291 @@
+/*CORPO*/
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 980px;
+}
+h2{
+    color: #660000;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+hr{
+    margin-top: -15px;
+    margin-left: 0px;
+    color: #660000;
+    height: 3px;
+    background-color: #660000;
+    width: 865px;
+}
+
+iframe{
+    width: 980px;
+    height: 45px;
+}
+
+h2{
+    font-family: arial;
+    font-size: 22px;
+}
+
+/*CABEÇALHO*/
+
+#banner{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+    background-image: url(../img/banner.fw.png);
+    height: 352px;
+    width: 980px;
+}
+
+#logo{
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 15px;
+}
+
+#rodape{
+    width: 980px;
+    height: 400px;
+}
+
+
+
+
+/* LOJA VIRTUAL */
+
+#img-drone-one{
+    display: inline-block;
+    background-image: url(../img/galerias.fw.png);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 150px;
+    background-position: -135px 30px;
+    position:absolute;
+    margin-left: 850px;
+    margin-top: -110px;
+  }
+
+  #tree-card{
+    background-position: -515px 0px;
+    position:absolute;
+    
+}
+
+.blue{
+    color: #1B8E99;
+    background-color: #d6e9eb;
+}
+
+.img-store{
+    width: 275px;
+    height: 280px;
+    background-image: url(../img/galerias3.fw.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: 0px 0px;
+    position:absolute;
+    margin-left: 10px;
+}
+
+.az{
+    margin-top: 175px;
+    padding: 10px;
+    margin-bottom: 0px;
+    height: 73px;
+    color: #1B8E99;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bbaz{
+    background-color: #1B8E99;
+}
+
+.red{
+    color: #660000;
+    background-color: #e7d0d0;
+}
+
+.ve{
+    margin-top: 175px;
+    padding: 10px;
+    margin-bottom: 0px;
+    height: 73px;
+    color: #660000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price{
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+    margin-top: 16px;
+    padding-top: 20px;
+}
+
+.portion{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: -40px;
+}
+
+.card h3{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card{
+    width: 300px;
+    height: 376px;
+    margin: 0px 15px 0px 15px;
+    border: solid #1B8E99 1px;
+    border-bottom: solid #1B8E99 10px;
+}
+
+#cards{
+    display: inline-flex;
+    list-style: none;
+    margin-left: -50px;
+}
+#two-card{
+    background-position: -275px 0px;
+    position:absolute;
+    margin-left: 18px;
+}
+#red-card{
+    border: solid #660000 1px;
+    border-bottom: solid #660000 10px;
+}
+
+.bottom-card{
+    height: 96px;
+    width: 300px;
+    margin-top: -27px;
+}
+
+#bbve{
+    background-color: #660000;
+}
+
+/* SERVIÇO */
+
+
+.image-service{
+    width: 300px;
+    height: 130px;
+    background-image: url(../img/galerias2.fw.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: 0px 0px;
+    position:absolute;
+}
+
+#row-two{
+    margin-top: -15px;
+    margin-left: 0px;
+    color: #1B8E99;
+    height: 3px;
+    background-color: #1B8E99;
+    width: 865px;
+    margin-bottom: 40px;
+}
+
+#topico2{
+    color: #1B8E99;
+}
+
+#drone-service{
+    display: inline-block;
+    background-image: url(../img/galerias.fw.png);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 150px;
+    background-position: 0px 30px;
+    position:absolute;
+    margin-left: 850px;
+    margin-top: -110px;
+  }
+
+  #text-buttom{
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ 
+#title-buttom-flight{
+    margin-top: 130px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #660000;
+}
+
+#titulobaixoaz{
+    margin-top: 130px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1B8E99;
+}
+
+
+
+
+/*MENU SUPERIOR*/
+
+.navbar-top{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #1B8E99;
+    color: white;
+    text-transform: uppercase; 
+    text-align: right;
+    position: flex;
+    margin-top: -10px; 
+    padding: 2px;
+   
+    
+}
+
+.navbar-top-ul .navbar-top-li{
+    display: inline;
+    padding: 10px;
+}
+
+.navbar-top-li:hover{
+    background-color: #92C9CE;
+    cursor: pointer;
+}
+
+
+
+/* MENU INFERIOR */
+
+.navbar-bottom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #660000;
+    color: white;
+    text-transform: uppercase;
+    position: flex;      
+    margin-top: -10px; 
+    padding: 2px;
+}
+
+.navbar-bottom-ul .navbar-bottom-li{
+    display: inline;
+    padding-right: 10px;   
+}
+
+.navbar-bottom-li:hover{
+    background-color: #ceaa92;
+    cursor: pointer;
+}
